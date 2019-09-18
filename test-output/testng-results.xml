@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38783" started-at="2019-09-17T12:57:27Z" finished-at="2019-09-17T12:58:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38783" started-at="2019-09-17T12:57:27Z" finished-at="2019-09-17T12:58:06Z">
+      <class name="org.cts.tst.A">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:org.cts.tst.A@649d209a]" name="launchBrowser" is-config="true" duration-ms="18488" started-at="2019-09-17T18:27:27Z" finished-at="2019-09-17T18:27:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:org.cts.tst.A@649d209a]" name="tc1" duration-ms="12624" started-at="2019-09-17T18:27:46Z" data-provider="res" finished-at="2019-09-17T18:27:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Farith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Karthik]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:org.cts.tst.A@649d209a]" name="tc1" duration-ms="4707" started-at="2019-09-17T18:27:58Z" data-provider="res" finished-at="2019-09-17T18:28:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nishanthi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:org.cts.tst.A@649d209a]" name="tc1" duration-ms="2943" started-at="2019-09-17T18:28:03Z" data-provider="res" finished-at="2019-09-17T18:28:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Saranya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- org.cts.tst.A -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
